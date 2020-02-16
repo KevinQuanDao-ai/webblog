@@ -2,9 +2,7 @@ h1, h2, h5 {
   font-family: 'Merriweather', serif;
 }
 
-h2 {
-  padding-bottom: 0
-}
+
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -55,6 +53,9 @@ p {
 #Intro {
 }
 
+#footer-title {
+  padding-bottom: 2%;
+}
 
 .social-img {
   margin: 10px
