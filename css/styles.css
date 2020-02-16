@@ -25,6 +25,7 @@ p {
 #intro_img {
   width: 100%
 }
+
 .container-fluid {
   padding: 0px
 }
@@ -36,18 +37,18 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.introClass{
+.introClass {
   position: relative;
   text-align: center;
   color: white;
 }
 
-footer {
+#footer {
+  width: 100%;
   color: #fff;
   text-align: center;
-  margin-top: 10%;
-  padding: 3% 5%;
   background-color: #343A40;
+  padding: 3% 0;
 }
 
 .social-img {
@@ -58,13 +59,14 @@ footer {
   font-family: 'Merriweather', serif;
 }
 
-.social-img:hover{
+.social-img:hover {
   opacity: 0.5;
 }
 
 .itemInRow {
   padding-bottom: 30px;
 }
+
 /* story html */
 .blog-home-widget {
   margin-top: 60px
