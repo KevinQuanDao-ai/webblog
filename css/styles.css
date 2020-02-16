@@ -1,0 +1,71 @@
+h1, h2, h5 {
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  padding-bottom: 0
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  margin-top: 60px;
+}
+
+.home-widget {
+  margin-top: 70px;
+}
+
+#Knowledge {
+  margin-top: 60px;
+}
+
+#intro_img {
+  width: 100%
+}
+.container-fluid {
+  padding: 0px
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.introClass{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
+  padding: 3% 5%;
+  background-color: #343A40;
+}
+
+.social-img {
+  margin: 10px
+}
+
+.navbar {
+  font-family: 'Merriweather', serif;
+}
+
+.social-img:hover{
+  opacity: 0.5;
+}
+
+.itemInRow {
+  padding-bottom: 30px;
+}
+/* story html */
+.blog-home-widget {
+  margin-top: 60px
+}
