@@ -1,0 +1,31 @@
+<%- include('partial/header')-%>
+<div class="container">
+  <form class="" action="/compose" method="post">
+    <!-- post title -->
+    <h1>Title</h1>
+    <div class="input-group mb-3">
+      <input type="text" name="postTilte" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <!-- post image -->
+    <h1>Image</h1>
+    <div class="input-group mb-3">
+      <input type="text" name="postImg" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <!-- main title -->
+    <h1>Main</h1>
+    <textarea name="area3" style="width: 100%; height: 500px;">
+     HTML content default in textarea</textarea>
+    <script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script>
+    <script type="text/javascript">
+      //<![CDATA[
+      bkLib.onDomLoaded(function() {
+        nicEditors.allTextAreas()
+      });
+      //]]>
+    </script>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<%- include('partial/footer')-%>

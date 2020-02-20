@@ -1,0 +1,142 @@
+<%- include('partial/header'); -%>
+<!-- Main -->
+<div class="container main">
+  <div class="row">
+    <div class="col-lg-9" id="left-panel">
+      <section id="Story">
+        <!-- Story -->
+        <h1>Story</h1>
+        <div class="row">
+          <div class="col-lg-12 itemInRow">
+            <div class="card">
+              <img src="<%= storyPostImg1EJS %>" class="card-img-top" alt="story picture">
+              <div class="card-body">
+                <h5 class="card-title"><%= storyPostTitle1EJS %></h5>
+                <p class="card-text"><%= storyPostMain1EJS %></p>
+                <a href="#" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 itemInRow">
+            <div class="card">
+              <img src="<%= storyPostImg2EJS %>" class="card-img-top" alt="story picture">
+              <div class="card-body">
+                <h5 class="card-title"><%= storyPostTitle2EJS %>e</h5>
+                <p class="card-text"><%= storyPostMain2EJS %></p>
+                <a href="#" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 itemInRow">
+            <div class="card">
+              <img src="<%= storyPostImg3EJS %>" class="card-img-top" alt="story picture">
+              <div class="card-body">
+                <h5 class="card-title"><%= storyPostTitle3EJS %></h5>
+                <p class="card-text"><%= storyPostMain3EJS %></p>
+                <a href="#" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Topic -->
+      <section id="Knowledge">
+        <h1>Knowledge</h1>
+
+        <div class="row">
+          <div class="col-lg-12 itemInRow">
+            <div class="card">
+              <img src="<%=knowPostImg1EJS %>" class="card-img-top" alt="story picture">
+              <div class="card-body">
+                <h5 class="card-title"><%=knowPostTitle1EJS %></h5>
+                <p class="card-text"><%=knowPostMain1EJS %></p>
+                <a href="#" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 itemInRow">
+            <div class="card">
+              <img src="<%=knowPostImg2EJS %>" class="card-img-top" alt="story picture">
+              <div class="card-body">
+                <h5 class="card-title"><%=knowPostTitle2EJS %></h5>
+                <p class="card-text"><%=knowPostMain2EJS %></p>
+                <a href="#" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 itemInRow">
+            <div class="card">
+              <img src="<%=knowPostImg3EJS %>" class="card-img-top" alt="story picture">
+              <div class="card-body">
+                <h5 class="card-title"><%=knowPostTitle3EJS %></h5>
+                <p class="card-text"><%=knowPostMain3EJS %></p>
+                <a href="#" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="col-lg-3 home-widget">
+      <!-- face-widget -->
+      <div class="card face">
+        <img src="pic1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Follow Us</h5>
+          <span><a href="#" class="btn btn-primary btn-sm float-left">Like</a></span>
+          <span><a href="#" class="btn btn-primary btn-sm float-right">Follow Us</a></span>
+        </div>
+      </div>
+      <!-- Search Widget -->
+      <div class="card my-4">
+        <h5 class="card-header">Search</h5>
+        <div class="card-body">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-secondary" type="button">Go!</button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- category widget -->
+      <div class="card my-4 ">
+        <h5 class="card-header">Categories</h5>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-6">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#">Web Design</a>
+                </li>
+                <li>
+                  <a href="#">HTML</a>
+                </li>
+                <li>
+                  <a href="#">Freebies</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#">JavaScript</a>
+                </li>
+                <li>
+                  <a href="#">CSS</a>
+                </li>
+                <li>
+                  <a href="#">Tutorials</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<%- include('partial/footer'); -%>
